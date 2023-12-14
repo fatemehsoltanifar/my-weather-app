@@ -95,3 +95,33 @@ footer {
 
   color: rgba(39, 33, 66, 0.4);
 }
+
+#forecast-weather {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-day {
+  font-size: 15px;
+  text-align: center;
+}
+
+.minmax {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.forecast-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 400;
+}
+
+.max-temp {
+  font-weight: 900;
+}
